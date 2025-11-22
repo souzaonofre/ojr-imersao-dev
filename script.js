@@ -21,6 +21,17 @@ async function loadData() {
     return true;
 }
 
+function cardRender(cardData) {
+    const article = document.createElement('article');
+
+    article.innerHTML = `
+        <h2>${cardData.name}</h2>
+        <p>${cardData.description}</p>
+        <a href="${cardData.link}">Link</a>
+    `;
+
+     return article;
+}
 
 
 function iniciarBusca() {
