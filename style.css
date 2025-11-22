@@ -16,11 +16,14 @@ body {
     background: var(--bg-color); /* Define a cor de fundo usando uma variável */
     color: var(--secondary-color); /* Define a cor do texto padrão usando uma variável */
     font-family: "Quicksand", sans-serif; /* Define a família da fonte */
+    display: block;
+    width: 100%;
 }
 
 header {
     padding: 2rem 1rem; /* Espaçamento interno (2rem em cima/baixo, 1rem nos lados) */
     display: flex; /* Habilita o layout flexbox */
+    flex-flow: column;
     align-items: center; /* Alinha os itens verticalmente ao centro */
     justify-content: space-around; /* Distribui os itens com espaço ao redor */
     position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */
@@ -36,6 +39,24 @@ header h1 {
     margin: 0; /* Remove a margem padrão */
     font-weight: 500; /* Peso da fonte (médio) */
     white-space: nowrap; /* Impede a quebra de linha do texto */
+    display: inherit;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+header div {
+    display: inherit;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin-top: 3rem;
 }
 
 div input {
@@ -47,8 +68,10 @@ div input {
     font-size: 1.5rem; /* Tamanho da fonte */
     transition: all 0.2s ease; /* Adiciona uma transição suave para todas as propriedades */
     width: 30rem; /* Largura do input */
+    height: 3.5rem;
     color: var(--secondary-color); /* Cor do texto digitado */
     margin-right: .5rem; /* Margem à direita */
+    margin-left: 9rem;
 }
 
 div input::placeholder {
@@ -64,7 +87,7 @@ div input:focus {
 }
 
 #botao-busca {
-    padding: 1rem 2rem; /* Espaçamento interno */
+    padding: 1rem 1rem; /* Espaçamento interno */
     border-radius: 1rem; /* Arredonda as bordas */
     border: none; /* Remove a borda padrão */
     cursor: pointer; /* Muda o cursor para uma mão ao passar por cima */
@@ -76,6 +99,7 @@ div input:focus {
     background-color: var(--bg-color); /* Cor de fundo */
     color: var(--secondary-color); /* Cor do texto */
     border: 1px solid var(--bg-color); /* Adiciona uma borda */
+    margin: 0;
 }
 
 #botao-busca:hover {
