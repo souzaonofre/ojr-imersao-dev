@@ -27,7 +27,7 @@ function cardRender(cardData) {
     article.innerHTML = `
         <h2>${cardData.name}</h2>
         <p>${cardData.description}</p>
-        <a href="${cardData.link}">Link</a>
+        <a href="${cardData.link}" target="_blank">Saiba mais</a>
     `;
 
      return article;
