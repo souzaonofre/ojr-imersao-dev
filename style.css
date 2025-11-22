@@ -8,8 +8,9 @@
     --primary-color: #8ab4f8; /* Cor primária (azul claro) */
     --secondary-color: #e8eaed; /* Cor secundária (cinza claro) */
     --tertiary-color: #9aa0a6; /* Cor terciária (cinza médio) */
-    --bg-color: #202124; /* Cor de fundo (cinza escuro) */
+    --bg-color: #101926; /* Cor de fundo (cinza escuro) */
 }
+
 
 body {
     margin: 0; /* Remove a margem padrão do body */
