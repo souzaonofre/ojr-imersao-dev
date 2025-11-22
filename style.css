@@ -71,7 +71,7 @@ div input {
     height: 3.5rem;
     color: var(--secondary-color); /* Cor do texto digitado */
     margin-right: .5rem; /* Margem à direita */
-    margin-left: 9rem;
+    margin-left: 5rem;
 }
 
 div input::placeholder {
