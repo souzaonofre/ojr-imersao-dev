@@ -33,6 +33,17 @@ function cardRender(cardData) {
      return article;
 }
 
+function loadCardList(cardList, root) {
+    if (!root || (root instanceof HTMLSectionElement) === false) {
+        root = document.querySelector('main > section');
+    }
+    
+    root.innerHTML = '';
+
+    cardList.forEach(cardData => {
+        root.insertAdjacentElement('beforeend', cardRender(cardData));
+    });
+}
 
 function iniciarBusca() {
     const ipt = document.querySelector('#input-busca');
