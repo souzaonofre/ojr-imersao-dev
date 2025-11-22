@@ -23,4 +23,18 @@ async function loadData() {
 
 
 
+function iniciarBusca() {
+    const ipt = document.querySelector('#input-busca');
+    if (ipt.value === '') {
+        window.alert("Por favor, insira um nome para buscar");
+        return;
+    }
+
+    if (dados.length === 0 || loadData() === false) {
+        console.error("Nenhum dado encontrado");
+        return;
+    }
+
+}
+
 document.addEventListener('DOMContentLoaded', loadData);  
