@@ -41,6 +41,7 @@ async function loadData() {
  */
 function cardRender(cardData) {
     const article = document.createElement('article');
+    article.classList.add('card');
 
     article.innerHTML = `
         <h2>${cardData.name}</h2>
@@ -66,7 +67,7 @@ function loadCardList(cardList, root) {
     }
     
     root.innerHTML = '';
-
+    
     cardList.forEach(cardData => {
         root.insertAdjacentElement('beforeend', cardRender(cardData));
     });
