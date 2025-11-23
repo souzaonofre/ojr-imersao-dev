@@ -67,7 +67,7 @@ function loadCardList(cardList, root) {
     }
     
     root.innerHTML = '';
-    
+
     cardList.forEach(cardData => {
         root.insertAdjacentElement('beforeend', cardRender(cardData));
     });
@@ -93,10 +93,10 @@ function iniciarBusca() {
     }
 
     const iptValue = ipt.value.toLowerCase();
-    const cardName = cardData.name.toLowerCase();
-    const cardAlias = cardData.alias.toLowerCase();
 
-    const filteredData = dados.filter(cardData => cardName.includes(iptValue) || cardAlias.includes(iptValue));
+    const filteredData = dados.filter((cardData => {
+        return cardData.name.toLowerCase().includes(iptValue) || cardData.alias.toLowerCase().includes(iptValue)
+    }));
     loadCardList(filteredData);
 }
 
