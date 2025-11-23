@@ -44,7 +44,11 @@ function cardRender(cardData) {
     article.classList.add('card');
 
     article.innerHTML = `
-        <h2>${cardData.name}</h2>
+        <h2>
+            <img src="${cardData.icon}" alt="${cardData.name}" class="card-icon">
+            <span style="margin-left: .7rem;" >${cardData.name}</span>
+            <span style="margin-left: .7rem;" >(${cardData.year})</span>
+        </h2>
         <p>${cardData.description}</p>
         <a href="${cardData.link}" target="_blank">Saiba mais</a>
     `;

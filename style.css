@@ -125,12 +125,11 @@ article {
     background: none; /* Sem cor de fundo */
     border-radius: 0; /* Sem bordas arredondadas */
     padding: 0; /* Remove o padding */
-    padding: 0 1rem; /* Espaçamento interno nos lados */
+    padding: 1.5rem 3rem 0 6rem; /* Espaçamento interno nos lados */
     margin-bottom: 1.25rem; /* Margem inferior */
     box-shadow: none; /* Sem sombra */
     transition: background-color 0.3s ease, border-bottom-color 0.3s ease; /* Transição suave */
     border-bottom: 1px solid var(--bg-color); /* Borda inferior */
-    padding-bottom: 1.5rem; /* Espaçamento interno inferior */
 }
 
 article:hover {
@@ -146,6 +145,13 @@ article h2 {
     padding-bottom: 0; /* Sem espaçamento interno inferior */
     margin-bottom: 0.25rem; /* Margem inferior */
     color: var(--primary-color); /* Cor do texto */
+}
+
+article h2 img {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    top: .5rem;
 }
 
 article p {
