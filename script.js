@@ -1,6 +1,15 @@
 let dados = [];
 
 
+/**
+ * Carrega os dados do arquivo JSON
+ * 
+ * @async
+ * @function
+ * @name loadData
+ * @kind function
+ * @returns {Promise<boolean>}
+ */
 async function loadData() {
     const resp = await fetch("data.json");
 
@@ -21,6 +30,15 @@ async function loadData() {
     return true;
 }
 
+/**
+ * Renderiza um card com as informações de uma linguagem de programação
+ * 
+ * @function
+ * @name cardRender
+ * @kind function
+ * @param {Object} cardData - Dados da linguagem de programação
+ * @returns {HTMLElement} Elemento HTML do card
+ */
 function cardRender(cardData) {
     const article = document.createElement('article');
 
@@ -33,6 +51,15 @@ function cardRender(cardData) {
     return article;
 }
 
+/**
+ * Carrega a lista de cards
+ * 
+ * @function
+ * @name loadCardList
+ * @kind function
+ * @param {Array<Object>} cardList - Lista de cards
+ * @param {HTMLElement} root - Elemento HTML onde os cards serão renderizados
+ */
 function loadCardList(cardList, root) {
     if (!root || (root instanceof HTMLSectionElement) === false) {
         root = document.querySelector('main > section');
@@ -45,6 +72,13 @@ function loadCardList(cardList, root) {
     });
 }
 
+/**
+ * Inicia a busca de cards
+ * 
+ * @function
+ * @name iniciarBusca
+ * @kind function
+ */
 function iniciarBusca() {
     const ipt = document.querySelector('#input-busca');
     if (ipt.value === '') {
