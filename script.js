@@ -117,4 +117,15 @@ function iniciarBusca() {
     ipt.focus();
 }
 
-document.addEventListener('DOMContentLoaded', loadData);  
+document.addEventListener('DOMContentLoaded', (ev) => {
+    loadData();
+    document.querySelector('#input-busca').focus();
+});  
+
+document.querySelector('#input-busca').addEventListener('keypress', (e) => {
+    e.preventDefault();
+
+    if (e.key === 'Enter') {
+        document.querySelector('#botao-busca').focus();
+    }
+});
