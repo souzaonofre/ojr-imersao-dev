@@ -97,11 +97,24 @@ function iniciarBusca() {
     }
 
     const iptValue = ipt.value.toLowerCase();
+    const btn = document.querySelector('#botao-busca');
+  
+    ipt.value = '';
+    const placeholder = ipt.placeholder;
+    ipt.placeholder = 'Buscando dados...';
+    ipt.blur();
+    ipt.disabled = true;
+    btn.disabled = true;
 
     const filteredData = dados.filter((cardData => {
         return cardData.name.toLowerCase().includes(iptValue) || cardData.alias.toLowerCase().includes(iptValue)
     }));
     loadCardList(filteredData);
+
+    ipt.placeholder = placeholder;
+    ipt.disabled = false;
+    btn.disabled = false;
+    ipt.focus();
 }
 
 document.addEventListener('DOMContentLoaded', loadData);  
