@@ -30,7 +30,7 @@ function cardRender(cardData) {
         <a href="${cardData.link}" target="_blank">Saiba mais</a>
     `;
 
-     return article;
+    return article;
 }
 
 function loadCardList(cardList, root) {
@@ -57,6 +57,12 @@ function iniciarBusca() {
         return;
     }
 
+    const iptValue = ipt.value.toLowerCase();
+    const cardName = cardData.name.toLowerCase();
+    const cardAlias = cardData.alias.toLowerCase();
+
+    const filteredData = dados.filter(cardData => cardName.includes(iptValue) || cardAlias.includes(iptValue));
+    loadCardList(filteredData);
 }
 
 document.addEventListener('DOMContentLoaded', loadData);  
