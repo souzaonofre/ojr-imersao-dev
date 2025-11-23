@@ -119,6 +119,11 @@ main {
     margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente */
     margin-top: 2rem; /* Margem no topo */
     height: calc(100vh - 10rem - 4rem); /* Calcula a altura para preencher o espaço restante da tela */
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: var(--bg-color) var(--bg-color);
 }
 
 article {
