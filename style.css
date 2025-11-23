@@ -72,7 +72,7 @@ div input {
     height: 3.5rem;
     color: var(--secondary-color); /* Cor do texto digitado */
     margin-right: .5rem; /* Margem à direita */
-    margin-left: 5rem;
+    margin-left: 1rem;
 }
 
 div input::placeholder {
@@ -126,15 +126,25 @@ main {
     scrollbar-color: var(--bg-color) var(--bg-color);
 }
 
+main section.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
 article {
     background: none; /* Sem cor de fundo */
     border-radius: 0; /* Sem bordas arredondadas */
     padding: 0; /* Remove o padding */
-    padding: 1.5rem 3rem 0 6rem; /* Espaçamento interno nos lados */
+    padding: 1.5rem 6rem 0 6rem; /* Espaçamento interno nos lados */
     margin-bottom: 1.25rem; /* Margem inferior */
     box-shadow: none; /* Sem sombra */
     transition: background-color 0.3s ease, border-bottom-color 0.3s ease; /* Transição suave */
     border-bottom: 1px solid var(--bg-color); /* Borda inferior */
+    width: 100%;
 }
 
 article:hover {
