@@ -1,0 +1,106 @@
+[
+    {
+        "name": "JavaScript",
+        "alias": "JS",
+        "year": 1995,
+        "description": "Linguagem de programação para criar interatividade em sites",
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+    },
+    {
+        "name": "Python",
+        "alias": "PY",
+        "year": 1991,
+        "description": "Linguagem de alto nível, interpretada e de propósito geral, conhecida por sua legibilidade e vasta biblioteca padrão.",
+        "link": "https://docs.python.org/pt-br/3/",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+    },
+    {
+        "name": "Java",
+        "alias": "Java",
+        "year": 1995,
+        "description": "Linguagem orientada a objetos e multiplataforma, projetada para ter poucas dependências de implementação.",
+        "link": "https://docs.oracle.com/en/java/",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+    },
+    {
+        "name": "C#",
+        "alias": "Csharp",
+        "year": 2000,
+        "description": "Linguagem moderna e orientada a objetos desenvolvida pela Microsoft, parte da plataforma .NET.",
+        "link": "https://learn.microsoft.com/pt-br/dotnet/csharp/",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
+    },
+    {
+        "name": "C++",
+        "alias": "Cplusplus",
+        "year": 1985,
+        "description": "Extensão da linguagem C com recursos de orientação a objetos e programação genérica.",
+        "link": "https://isocpp.org/",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+    },
+    {
+        "name": "C",
+        "alias": "C",
+        "year": 1972,
+        "description": "Linguagem procedural de baixo nível, amplamente usada para desenvolvimento de sistemas e sistemas embarcados.",
+        "link": "https://devdocs.io/c/",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg"
+    },  
+    {
+        "name": "Ruby",
+        "alias": "RB",
+        "year": 1995,
+        "description": "Linguagem dinâmica e orientada a objetos, focada na simplicidade e produtividade do desenvolvedor.",
+        "link": "https://www.ruby-lang.org/pt/documentation/",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-original.svg"
+    },
+    {
+        "name": "PHP",
+        "alias": "PHP",
+        "year": 1995,
+        "description": "Linguagem de script open source de uso geral, muito popular para o desenvolvimento web.",
+        "link": "https://www.php.net/docs.php",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+    },
+    {
+        "name": "GoLang",
+        "alias": "Go",
+        "year": 2007,
+        "description": "Linguagem open source criada pelo Google, focada em simplicidade, eficiência e concorrência.",
+        "link": "https://go.dev/doc/",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg"
+    },
+    {
+        "name": "Swift",
+        "alias": "Swift",
+        "year": 2014,
+        "description": "Linguagem poderosa e intuitiva criada pela Apple para desenvolvimento de apps iOS, Mac, Apple TV e Apple Watch.",
+        "link": "https://www.swift.org/documentation/",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg"
+    },
+    {
+        "name": "Kotlin",
+        "alias": "Kotlin",
+        "year": 2011,
+        "description": "Linguagem moderna e concisa, interoperável com Java e recomendada pelo Google para desenvolvimento Android.",
+        "link": "https://kotlinlang.org/docs/home.html",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg"
+    },
+    {
+        "name": "Typescript",
+        "alias": "TS",
+        "year": 2012,
+        "description": "Superset tipado de JavaScript que compila para JavaScript simples.",
+        "link": "https://www.typescriptlang.org/docs/",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+    },
+    {
+        "name": "Rust",
+        "alias": "RS",
+        "year": 2010,
+        "description": "Linguagem de sistemas que foca em segurança, velocidade e concorrência, prevenindo erros de memória.",
+        "link": "https://www.rust-lang.org/learn",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg"
+    }
+]
