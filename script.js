@@ -123,9 +123,8 @@ document.addEventListener('DOMContentLoaded', (ev) => {
 });  
 
 document.querySelector('#input-busca').addEventListener('keypress', (e) => {
-    e.preventDefault();
-
     if (e.key === 'Enter') {
+        e.stopPropagation();
         document.querySelector('#botao-busca').focus();
     }
 });
