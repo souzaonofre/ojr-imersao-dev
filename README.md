@@ -31,4 +31,4 @@ GPL v3
 
 Onofre Jr. Souza
 - [souzaonofre@gmail.com](mailto:souzaonofre@gmail.com)
-- [https://www.linkedin.com/in/onofre-souza-1ab380bb](https://www.linkedin.com/in/onofre-souza-1ab380bb)
+- [https://www.linkedin.com/in/onofre-junior-de-souza-1ab380bb/](https://www.linkedin.com/in/onofre-junior-de-souza-1ab380bb/)
